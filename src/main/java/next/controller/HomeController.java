@@ -1,22 +1,22 @@
 package next.controller;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
-import core.mvc.Controller;
 
-public class HomeController implements Controller {
+@Controller
+public class HomeController {
 
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
-	@Override
-	public String execute(HttpServletRequest req, HttpServletResponse resp) throws Exception {
-		// TODO Auto-generated method stub
+	@RequestMapping(value="/", method = RequestMethod.GET)
+	public String home() throws Exception {
 		logger.info("Hello World");
-		return "/hello/Hello.jsp";
+		
+		return "/index";
 	}
 
 }

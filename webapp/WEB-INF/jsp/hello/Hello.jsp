@@ -7,6 +7,6 @@
 <title>Hello</title>
 </head>
 <body>
-<h1>Hello World</h1>
+<h1>Hello World! this is spring-based web service.</h1>
 </body>
 </html>
