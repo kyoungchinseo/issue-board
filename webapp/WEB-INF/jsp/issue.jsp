@@ -11,7 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-orange.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/resources/css/styles.css">
   </head>
   <body>
     <div class="issues issues--wrap mdl-layout mdl-js-layout has-drawer is-upgraded">
