@@ -32,7 +32,7 @@ body .issues {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  min-height: 360px;
+  min-height: 200px;
 }
 
 .issues .mdl-card__title {
@@ -358,4 +358,14 @@ a {
   padding-top: 0;
   padding-bottom: 0;
   box-sizing: border-box;
+}
+
+.mdl-layout-form {
+	align-items: center;
+	justify-content: center;
+}
+
+.mdl-layout-form__content {
+	padding: 10px;
+	flex: none;
 }
